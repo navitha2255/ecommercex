@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Free Shipping On All india Orders 2000+</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="https://th.bing.com/th/id/OIP.YA-G-EFro_TqxKOngVmQlAAAAA?w=225&h=182&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="179" height="26" alt="Glowing">
+        </a>
+
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+            <data class="btn-text" value="0">0.00/-</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">Home</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Collection</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">Shop</a>
+            </li>
+
+            <li>
+              <a href="#offer" class="navbar-link has-after">Offer</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link has-after">Blog</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+            <img src="https://th.bing.com/th/id/OIP.eThVKB4Q72_JnLbIQPkQBwHaLG?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('https://bravaland.com/cdn/shop/files/DSC00058_CAROUSEL_1_1440x650_crop_center.jpg?v=1691318279')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                      MEDAL WORTHY<br>
+                    BRANDS TO BAG 
+                  </h1>
+
+                  <p class="hero-text">
+                    GRAND GLOBAL BRANDS.
+                  </p>
+
+                  <p class="price">SHOP BY CATEGORY</p>
+
+                  <a href="#" class="btn btn-primary">Shop Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('https://bravaland.com/cdn/shop/files/DSC09802_carousel_1440x650_crop_center.jpg?v=1691318279')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    MEDAL WORTHY <br>
+                    BRANDS TO BAG
+                  </h1>
+
+                  <p class="hero-text">
+                    GRAND GLOBAL BRANDS.
+                  </p>
+
+                  <p class="price">SHOP BY CATEGORY</p>
+
+                  <a href="#" class="btn btn-primary">Shop Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('https://bravaland.com/cdn/shop/files/DSC00198_CAROUSEL_1_1440x650_crop_center.jpg?v=1691318278')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    MEDAL WORTHY <br>
+                   BRANDS TO BAG
+                  </h1>
+
+                  <p class="hero-text">
+                    GRAND GLOBAL BRANDS.
+                  </p>
+
+                  <p class="price">SHOP BY CATEGORY</p>
+
+                  <a href="#" class="btn btn-primary">Shop Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Summer Collection</h2>
+
+                <p class="card-text">Starting at 500/-</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Shop Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('https://th.bing.com/th/id/OIP.jp0Dq9T6_dIrCpId_j_t5wHaL2?w=197&h=316&c=7&r=0&o=5&dpr=1.1&pid=1.7')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">What’s New?</h2>
+
+                <p class="card-text">Min. 30% Off</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('https://th.bing.com/th/id/OIP.OoEQkpgTYfj5VOWt27GYuAHaJb?w=202&h=257&c=7&r=0&o=5&dpr=1.1&pid=1.7')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Buy 1 Get 1</h2>
+
+                <p class="card-text">Starting at 599/-</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Discover Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('https://th.bing.com/th/id/OIP.TC6Ust7DXh4nPY-KkhywkAHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Our Bestsellers</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Shop All Products</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.sLkT1XjDsewmrB0gOlNOOAHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">899/-</del>
+
+                    <span class="span">299/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Fashion Loose Dresses</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.WpSnkC24e0AhwFqkdbbNjAHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">2999/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Active wear</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.z8JlsprRdhrk4yE1ZuhSvwHaM0?w=189&h=328&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">1599/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Ethinc Wear</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.re_QfXuMamQ9bFrCR4GNLwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">699/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cool Casuals</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.OAj3SVJKmQQHpaCvDG2FtQHaLL?w=202&h=305&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">899/-</del>
+
+                    <span class="span">599/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Must have Collection</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIF.JuAfNt1fQs4fbZSiQUvLnw?w=202&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">229/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Stylish Fits</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Under 625/-</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Shop All Products</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.n7vXEJurnf1q5bB0YN9QQwHaKL?w=202&h=278&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">399/-</del>
+
+                    <span class="span">299/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Lounge Wear</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.l5aoxyhJmjbbiCOdtjJr2AHaOu?w=175&h=350&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">229/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Size Enclusive Style</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.Wlj8Te6dJ39kVM88eY47kgHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">399/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Western Wear</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.f4FueEQ_uvqeVpQcokuAVQHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">829/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Tops & Tees</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.We3_T3XQfFz35BtWEyaxcgHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">1339/-</del>
+
+                    <span class="span">999/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Eco- Friendly Styles</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="https://th.bing.com/th/id/OIP.E9qI1B6YCGY55TsvzZqNWgHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">999/-</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Smart Daily wear Tees</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section banner" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle">New Collection</p>
+
+                <h2 class="h2 card-title">New Season , New Mood</h2>
+
+                <a href="#" class="btn btn-secondary">Explore More</a>
+
+                <div class="has-bg-image" style="background-image: url('data:image/jpeg;base64,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')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title">25% off Everything</h2>
+
+                <p class="card-text">
+                  Dresses Min 50% off.
+                </p>
+
+                <a href="#" class="btn btn-secondary">Shop Sale</a>
+
+                <div class="has-bg-image" style="background-image: url('https://th.bing.com/th/id/OIP.NAzI6q1rrkLsr2kNO7ZMIgHaJc?w=202&h=258&c=7&r=0&o=5&dpr=1.1&pid=1.7')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Why Shop with Glowing?</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="data:image/jpeg;base64,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" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
+                  class="card-icon">
+
+                <h3 class="h3 card-title">Guaranteed PURE</h3>
+
+                <p class="card-text">
+                    “In the world of dressmaking, every stitch is a step towards perfection.” 
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="data:image/jpeg;base64,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" width="204" height="236" loading="lazy"
+                  alt="Completely Cruelty-Free" class="card-icon">
+
+                <h3 class="h3 card-title">All Thats Fresh & New</h3>
+
+                <p class="card-text">
+                    
+                    “Dressmaking is not just about creating garments; it’s about bringing dreams to life
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="https://th.bing.com/th/id/OIP.2uP6nmrw4sDgFoDF_qYHnwHaLG?w=126&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7g" width="204" height="236" loading="lazy"
+                  alt="Ingredient Sourcing" class="card-icon">
+
+                <h3 class="h3 card-title">Deals For Her</h3>
+
+                <p class="card-text">
+                    “Behind every beautiful dress is a dressmaker who poured their heart and soul into its creation
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #OFFER
+      -->
+
+      <section class="section offer" id="offer" aria-label="offer" data-section>
+        <div class="container">
+
+          <figure class="offer-banner">
+            <img src="https://th.bing.com/th/id/OIP.uECnVWnhcHmqjLinohK4gQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="305" height="408" loading="lazy" alt="offer products"
+              class="w-100">
+
+            <img src="https://th.bing.com/th/id/OIP.UN7UjfWfOq1TfoXdyYd_MAHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="450" height="625" loading="lazy" alt="offer products"
+              class="w-100">
+          </figure>
+
+          <div class="offer-content">
+
+            <p class="offer-subtitle">
+              <span class="span">Special Offer</span>
+
+              <span class="badge" aria-label="20% off">-20%</span>
+            </p>
+
+            <h2 class="h2-large section-title">Saw It First</h2>
+
+            <p class="section-text">
+                “The art of dressmaking is a symphony of creativity and craftsmanship.” 
+            </p>
+
+            <div class="countdown">
+
+              <span class="time" aria-label="days">12</span>
+              <span class="time" aria-label="hours">21</span>
+              <span class="time" aria-label="minutes">46</span>
+              <span class="time" aria-label="seconds">08</span>
+
+            </div>
+
+            <a href="#" class="btn btn-primary">Get Only 5999/-</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">More to Discover</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://th.bing.com/th/id/OIP.mV7zrRVLQskkuLRYJqdxsgHaKZ?w=202&h=283&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="700" height="450" loading="lazy" alt="Find a Store"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Find a Store</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Our Store</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://th.bing.com/th/id/OIP.hDn0ZjFt-N6cH78qlvkHOgHaOw?w=175&h=350&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="700" height="450" loading="lazy" alt="From Our Blog"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">From Our Blog</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Our Store</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://th.bing.com/th/id/OIP.JQ__wWOersmCZNN4aKGYIQHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="700" height="450" loading="lazy" alt="Our Story"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Our Story</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Our Store</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+789 456 3</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">hello@ain.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">New Products</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Best Sellers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bundle & Save</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Gift Card</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Start a Return</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Good emails.</p>
+
+          <p class="newsletter-text">
+            Enter your email below to be the first to know about new collections and product launches.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2024 navitha
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="https://th.bing.com/th/id/OIP.CRkNSB1f5gCUrZVaMxuX1wHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+        <img src="https://th.bing.com/th/id/OIP.Sy0ntgpRicFuhR6757F89gHaJ3?w=202&h=269&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="313" height="28" alt="available all payment method" class="w-100">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="app.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
